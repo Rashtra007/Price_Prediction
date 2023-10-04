@@ -32,7 +32,8 @@ We split the data into training and testing sets, preparing it for model trainin
 
 4. Modelling & Evaluation
 We build and evaluate three models: K-Nearest Neighbors, Decision Tree, and Random Forest. We measure their performance using F1 scores.
+K-Nearest Neighbors (KNN) outperformed the other models, making it the algorithm of choice for this project
 
-5. Model Deployment
+6. Model Deployment
 We choose the best-performing model (K-Nearest Neighbors) and deploy it. The model is saved as 'model.pkl', and a Streamlit application is provided for easy use.
 For detailed code and implementation, please refer to the project repository.
